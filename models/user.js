@@ -9,10 +9,31 @@ mongoose.set("useCreateIndex", true);
 
 // Schema
 const userSchema = new mongoose.Schema({
-  email: {},
-  password: {},
-  name: {},
-  phone: {},
+  email: {
+    type: String,
+    required: true,
+    minlength: 5,
+    maxlength: 255,
+    unique: true,
+  },
+  password: {
+    type: String,
+    required: true,
+    minlength: 5,
+    maxlength: 1024,
+  },
+  name: {
+    type: String,
+    required: true,
+    minlength: 2,
+    maxlength: 50,
+  },
+  phone: {
+    type: String,
+    required: true,
+    minlength: 9,
+    maxlength: 20,
+  },
   rolls: [],
   isAdmin: Boolean,
 });
@@ -37,10 +58,12 @@ function validateUser(user) {
   const schema = Joi.object({
     email: Joi.string()
       .email({ tlds: { allow: false } })
-      .required(),
-    password: Joi.string().required(),
-    name: Joi.string().required().min(2).max(10),
-    phone: Joi.string().required(),
+      .required()
+      .min(5)
+      .max(255),
+    password: Joi.string().required().min(5).max(1024),
+    name: Joi.string().required().min(2).max(50),
+    phone: Joi.string().required().min(9).max(20),
   });
   return schema.validate(user);
 }

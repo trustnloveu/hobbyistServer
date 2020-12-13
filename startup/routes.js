@@ -1,5 +1,8 @@
+const cors = require("cors");
+
 // router
 const users = require("../routes/users");
+const auth = require("../routes/auth");
 
 // middleware
 // const error = require("../middleware/error");
@@ -7,6 +10,8 @@ const users = require("../routes/users");
 //routing
 module.exports = function (app, express) {
   app.use(express.json());
+  app.use(cors());
   app.use("/api/users", users);
+  app.use("/api/auth", auth);
   //   app.use(error);
 };

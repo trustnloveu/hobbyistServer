@@ -3,18 +3,25 @@
 const express = require("express");
 const router = express.Router();
 
+// authentication
+const jwt = require("jsonwebtoken");
+const config = require("config");
+
 // hashing
 const _ = require("lodash");
 const bcrypt = require("bcrypt");
 
-// auth
-const jwt = require("jsonwebtoken");
-const config = require("config");
+// middleware
+const auth = require("../middleware/auth");
 
 // modeling & defining schema
 const { User, validate } = require("../models/user");
 
 // GET
+router.get("/myPage", auth, async (req, res) => {
+  const user = await (await User.findById(req.user._id)).select("-password");
+  res.send(user);
+});
 
 // POST
 router.post("/", async (req, res) => {
@@ -36,7 +43,7 @@ router.post("/", async (req, res) => {
   // save to DB
   await user.save();
 
-  // return to clients
+  // return to clients with token in http header
   const token = user.generateAuthToken();
   res
     .header("x-auth-token", token)
