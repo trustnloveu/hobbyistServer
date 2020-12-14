@@ -33,7 +33,7 @@ router.post("/", async (req, res) => {
   let user = await User.findOne({ email: req.body.email });
   if (user) return res.status(400).send("등록된 유저입니다.");
 
-  // sign-up
+  // create user object
   user = new User(_.pick(req.body, ["email", "password", "name", "phone"]));
 
   // hash password
@@ -45,8 +45,10 @@ router.post("/", async (req, res) => {
 
   // return to clients with token in http header
   const token = user.generateAuthToken();
+
   res
     .header("x-auth-token", token)
+    .header("access-control-expose-headers", "x-auth-token")
     .send(_.pick(user, ["_id", "email", "name", "phone"]));
 });
 
