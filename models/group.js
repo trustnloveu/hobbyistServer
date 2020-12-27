@@ -13,7 +13,7 @@ const groupSchema = new mongoose.Schema({
     minlength: 1,
     maxlength: 20,
   },
-  categoryId: {
+  category: {
     type: categorySchema,
     required: true,
   },
@@ -32,7 +32,7 @@ const groupSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  meettingDate: {
+  meetingDate: {
     type: String,
     required: true,
   },
@@ -58,7 +58,7 @@ function validateGroup(group) {
     description: Joi.string().min(1).max(500).required(),
     startTime: Joi.string().required(),
     meetingDate: Joi.string().required(),
-    keywords: Joi.array(),
+    keywords: Joi.string(),
     launchedDate: Joi.date().default(new Date()),
   });
   return schema.validate(group);
