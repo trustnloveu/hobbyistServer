@@ -41,25 +41,25 @@ const groupSchema = new mongoose.Schema({
     required: true,
   },
   launchedDate: {
-    type: Date,
-    default: new Date(),
+    type: String,
+    default: new Date("yyyy-MM-hh"),
   },
 });
 
 // model
 const Group = mongoose.model("Group", groupSchema);
 
-// validate
+// validate inputs
 function validateGroup(group) {
   const schema = Joi.object({
     title: Joi.string().min(1).max(20).required(),
-    categoryId: Joi.string().required(),
+    categoryId: Joi.objectId().required(),
     location: Joi.string().required(),
     description: Joi.string().min(1).max(500).required(),
     startTime: Joi.string().required(),
     meetingDate: Joi.string().required(),
     keywords: Joi.string(),
-    launchedDate: Joi.date().default(new Date()),
+    launchedDate: Joi.string().default(new Date("yyyy-MM-hh")),
   });
   return schema.validate(group);
 }

@@ -15,7 +15,9 @@ const { Category } = require("../models/category");
 
 // POST
 router.post("/", auth, async (req, res) => {
-  console.log(req.body);
+  // error check
+  const { error } = validate(req.body);
+  if (error) return res.status(400).send(error.details[0].message);
 
   // convert keywords string to array
   const keywords = req.body.keywords
@@ -23,13 +25,8 @@ router.post("/", auth, async (req, res) => {
     .filter((element) => element !== "")
     .map((element) => element.trim());
 
-  // error check
-  const { error } = validate(req.body);
-  if (error) return res.status(400).send(error.details[0].message);
-
   // categoryId check
   const category = await Category.findById(req.body.categoryId);
-  console.log("category:" + category);
   if (!category) return res.status(400).send("잘못된 카테고리 아이디입니다.");
 
   // object
