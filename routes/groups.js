@@ -10,6 +10,10 @@ const { Group, validate } = require("../models/group");
 const { Category } = require("../models/category");
 
 // GET all
+router.get("/", async (req, res) => {
+  const groups = await Group.find().sort("launchedDate");
+  res.send(groups);
+});
 
 // GET one
 
