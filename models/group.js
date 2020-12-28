@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Joi = require("joi");
 
-// category schema
+// category & user schema
 const { categorySchema } = require("./category");
 
 // schema
@@ -12,6 +12,10 @@ const groupSchema = new mongoose.Schema({
     trim: true,
     minlength: 1,
     maxlength: 20,
+  },
+  host: {
+    type: Object,
+    required: true,
   },
   category: {
     type: categorySchema,
@@ -53,6 +57,7 @@ const Group = mongoose.model("Group", groupSchema);
 function validateGroup(group) {
   const schema = Joi.object({
     title: Joi.string().min(1).max(20).required(),
+    userId: Joi.objectId().required(),
     categoryId: Joi.objectId().required(),
     location: Joi.string().required(),
     description: Joi.string().min(1).max(500).required(),

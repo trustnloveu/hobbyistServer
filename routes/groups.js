@@ -8,6 +8,7 @@ const auth = require("../middleware/auth");
 // model & schema
 const { Group, validate } = require("../models/group");
 const { Category } = require("../models/category");
+const { User } = require("../models/user");
 
 // GET all
 router.get("/", async (req, res) => {
@@ -38,6 +39,10 @@ router.post("/", auth, async (req, res) => {
     .filter((element) => element !== "")
     .map((element) => element.trim());
 
+  // userId check
+  const user = await User.findById(req.body.userId);
+  if (!user) return res.status(400).send("잘못된 유저 아이디입니다.");
+
   // categoryId check
   const category = await Category.findById(req.body.categoryId);
   if (!category) return res.status(400).send("잘못된 카테고리 아이디입니다.");
@@ -45,6 +50,12 @@ router.post("/", auth, async (req, res) => {
   // object
   const group = new Group({
     title: req.body.title,
+    host: {
+      _id: user._id,
+      name: user.name,
+      email: user.email,
+      phone: user.phone,
+    },
     category: {
       _id: category._id,
       name: category.name,
