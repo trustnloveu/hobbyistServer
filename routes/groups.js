@@ -15,6 +15,15 @@ router.get("/", async (req, res) => {
   res.send(groups);
 });
 
+// GET some (by categoryId)
+router.get("/:categoryId", async (req, res) => {
+  const groups = await Group.find({
+    "category._id": req.params.categoryId,
+  }).sort("launchedDate");
+
+  res.send(groups);
+});
+
 // GET one
 
 // POST
