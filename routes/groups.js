@@ -3,7 +3,7 @@ const router = express.Router();
 
 // middleware
 const auth = require("../middleware/auth");
-// const validateObjectId = require("../middleware/validateObjectId");
+const validateObjectId = require("../middleware/validateObjectId");
 
 // model & schema
 const { Group, validate } = require("../models/group");
@@ -17,15 +17,23 @@ router.get("/", async (req, res) => {
 });
 
 // GET some (by categoryId)
-router.get("/:categoryId", async (req, res) => {
+router.get("/:id", validateObjectId, async (req, res) => {
   const groups = await Group.find({
-    "category._id": req.params.categoryId,
+    "category._id": req.params.id,
   }).sort("launchedDate");
 
   res.send(groups);
 });
 
-// GET one
+// GET one (by groupId)
+router.get("/group/:id", validateObjectId, async (req, res) => {
+  const group = await Group.findById(req.params.id);
+  if (!group) return res.send(404).send("현재 존재하지 않는 그룹입니다.");
+  console.log(req.params.id);
+  console.log(group);
+
+  res.send(group);
+});
 
 // POST
 router.post("/", auth, async (req, res) => {
@@ -74,6 +82,8 @@ router.post("/", auth, async (req, res) => {
   // return
   res.send(group);
 });
+
+// PUT
 
 // DELETE
 
