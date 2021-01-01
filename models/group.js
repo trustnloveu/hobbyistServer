@@ -51,7 +51,7 @@ const groupSchema = new mongoose.Schema({
   },
   // cover image
   coverImage: {
-    type: String,
+    type: Buffer,
     required: true,
   },
 });
@@ -72,7 +72,7 @@ function validateGroup(group) {
     keywords: Joi.string(),
     launchedDate: Joi.string().default(new Date("yyyy-MM-hh")),
     // cover image
-    coverImage: Joi.string().required(),
+    coverImage: Joi.binary().encoding("base64").required(),
   });
   return schema.validate(group);
 }

@@ -11,7 +11,11 @@ const users = require("../routes/users");
 
 //routing
 module.exports = function (app, express) {
-  app.use(express.json());
+  app.use(
+    express.json({
+      limit: "10mb",
+    })
+  );
   app.use(cors());
   app.use("/api/auth", auth);
   app.use("/api/categories", categories);

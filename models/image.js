@@ -3,14 +3,10 @@ const Joi = require("joi");
 
 // schema
 const imageSchema = new mongoose.Schema({
-  imageName: {
-    type: String,
-    deafult: "none",
-    required: true,
-  },
-  imageData: {
-    type: String,
-    required: true,
+  image: {
+    data: Buffer,
+    type: Buffer,
+    contentType: String,
   },
 });
 

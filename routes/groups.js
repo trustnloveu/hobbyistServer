@@ -8,8 +8,14 @@ const validateObjectId = require("../middleware/validateObjectId");
 
 // image upload library
 // const crypto = require("crypto"); // to generate file name
-const multer = require("multer");
-const uuidv4 = require("uuid/dist/v4");
+// const multer = require("multer");
+// const uuidv4 = require("uuid/dist/v4");
+
+// const storage = multer.diskStorage({
+//   destination: (req, file, cb) => {
+//     cb(null, )
+//   }
+// })
 
 // model & schema
 const { Group, validate } = require("../models/group");
@@ -80,6 +86,7 @@ router.post("/", auth, async (req, res) => {
     meetingDate: req.body.meetingDate,
     keywords: keywords,
     launcedDate: req.body.launchedDate,
+    coverImage: req.body.coverImage,
   });
 
   // store data in MongoDB
