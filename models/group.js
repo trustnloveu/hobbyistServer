@@ -3,6 +3,7 @@ const Joi = require("joi");
 
 // category & user schema
 const { categorySchema } = require("./category");
+// const { imageSchema } = require("./image");
 
 // schema
 const groupSchema = new mongoose.Schema({
@@ -48,6 +49,11 @@ const groupSchema = new mongoose.Schema({
     type: String,
     default: new Date("yyyy-MM-hh"),
   },
+  // cover image
+  coverImage: {
+    type: String,
+    required: true,
+  },
 });
 
 // model
@@ -65,6 +71,8 @@ function validateGroup(group) {
     meetingDate: Joi.string().required(),
     keywords: Joi.string(),
     launchedDate: Joi.string().default(new Date("yyyy-MM-hh")),
+    // cover image
+    coverImage: Joi.string().required(),
   });
   return schema.validate(group);
 }

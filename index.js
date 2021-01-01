@@ -9,8 +9,6 @@ require("./startup/db")(winston);
 require("./startup/config")();
 require("./startup/validation")();
 
-console.log();
-
 console.log(`현재 실행 환경: ${process.env.NODE_ENV}`);
 
 // port

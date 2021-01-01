@@ -1,9 +1,15 @@
+// express
 const express = require("express");
 const router = express.Router();
 
 // middleware
 const auth = require("../middleware/auth");
 const validateObjectId = require("../middleware/validateObjectId");
+
+// image upload library
+// const crypto = require("crypto"); // to generate file name
+const multer = require("multer");
+const uuidv4 = require("uuid/dist/v4");
 
 // model & schema
 const { Group, validate } = require("../models/group");
