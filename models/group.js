@@ -54,6 +54,10 @@ const groupSchema = new mongoose.Schema({
     type: Buffer,
     required: true,
   },
+  member: {
+    type: Number,
+    default: 1,
+  },
 });
 
 // model
@@ -71,7 +75,7 @@ function validateGroup(group) {
     meetingDate: Joi.string().required(),
     keywords: Joi.string(),
     launchedDate: Joi.string().default(new Date("yyyy-MM-hh")),
-    // cover image
+    member: Joi.number().default(1),
     coverImage: Joi.binary().encoding("base64").required(),
   });
   return schema.validate(group);

@@ -57,7 +57,8 @@ router.post("/", auth, async (req, res) => {
   const keywords = req.body.keywords
     .split("#")
     .filter((element) => element !== "")
-    .map((element) => element.trim());
+    .map((element) => element.trim())
+    .map((element) => element.replace(" ", ""));
 
   // userId check
   const user = await User.findById(req.body.userId);
@@ -86,6 +87,7 @@ router.post("/", auth, async (req, res) => {
     meetingDate: req.body.meetingDate,
     keywords: keywords,
     launcedDate: req.body.launchedDate,
+    member: req.body.member,
     coverImage: req.body.coverImage,
   });
 
