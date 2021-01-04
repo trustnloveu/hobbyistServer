@@ -56,25 +56,21 @@ router.post("/", async (req, res) => {
 
 // PUT > create a new group (manager role)
 router.put("/createNewGroup/:id", validateObjectId, async (req, res) => {
-  // groupId: group._id,    > req.params.id
-  // groupName: group.name, > req.body.groupName
-  // userId: auth.getCurrentUser()._id, > req.body.groupId
-
-  console.log(req.body);
-  console.log(req.params.id);
-
   const group = await Group.findById(req.params.id);
   if (!group) return res.status(404).send("현재 존재하지 않는 그룹입니다.");
 
+  console.log(group);
   const user = await User.findByIdAndUpdate(
-    req.body._id,
+    req.body.userId,
     {
-      joinedGroups: this.joinedGroups.push({
-        groupId: group._id,
-        groupName: group.name,
-        isManager: true,
-        isMember: true,
-      }),
+      $push: {
+        joinedGroups: {
+          groupId: group._id,
+          groupTitle: group.title,
+          isManager: true,
+          isMember: true,
+        },
+      },
     },
     {
       new: true,
@@ -84,8 +80,6 @@ router.put("/createNewGroup/:id", validateObjectId, async (req, res) => {
   if (!user) return res.status(404).send("확인되지 않는 유저입니다.");
 
   console.log(user);
-
-  // 토큰 업데이트 필요
 
   res.send(user);
 });

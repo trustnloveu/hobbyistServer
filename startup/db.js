@@ -11,6 +11,7 @@ module.exports = function (winston) {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useCreateIndex: true,
+      useFindAndModify: true,
     })
     .then(() => winston.info(`Connected to ${db}...`));
 };
