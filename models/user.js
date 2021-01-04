@@ -34,8 +34,14 @@ const userSchema = new mongoose.Schema({
     minlength: 9,
     maxlength: 20,
   },
-  rolls: [],
-  isAdmin: Boolean,
+  joinedGroups: {
+    type: Array,
+    default: [],
+  },
+  isAdmin: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 // Assign JWT

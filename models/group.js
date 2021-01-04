@@ -47,16 +47,15 @@ const groupSchema = new mongoose.Schema({
   },
   launchedDate: {
     type: String,
-    default: new Date("yyyy-MM-hh"),
-  },
-  // cover image
-  coverImage: {
-    type: Buffer,
-    required: true,
+    default: new Date(),
   },
   member: {
     type: Number,
     default: 1,
+  },
+  coverImage: {
+    type: Buffer,
+    required: true,
   },
 });
 
@@ -74,8 +73,8 @@ function validateGroup(group) {
     startTime: Joi.string().required(),
     meetingDate: Joi.string().required(),
     keywords: Joi.string(),
-    launchedDate: Joi.string().default(new Date("yyyy-MM-hh")),
-    member: Joi.number().default(1),
+    // launchedDate: Joi.string().default(new Date("yyyy-MM-dd")),
+    // member: Joi.number().default(1),
     coverImage: Joi.binary().encoding("base64").required(),
   });
   return schema.validate(group);

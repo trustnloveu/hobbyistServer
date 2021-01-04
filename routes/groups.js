@@ -86,7 +86,7 @@ router.post("/", auth, async (req, res) => {
     startTime: req.body.startTime,
     meetingDate: req.body.meetingDate,
     keywords: keywords,
-    launcedDate: req.body.launchedDate,
+    // launcedDate: req.body.launchedDate,
     member: req.body.member,
     coverImage: req.body.coverImage,
   });
