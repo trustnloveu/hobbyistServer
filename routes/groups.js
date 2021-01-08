@@ -98,7 +98,42 @@ router.post("/", auth, async (req, res) => {
   res.send(group);
 });
 
-// PUT
+// PUT (join group)
+router.put("/join", auth, async (req, res) => {
+  const { error } = validate(req.body);
+  if (error) return res.status(400).send(error.details[0].message);
+
+  // check user
+  const user = await User.findById(req.body.userId);
+  if (!user) return res.status(404).send("확인되지 않는 유저입니다.");
+
+  // check user duplication
+
+  // check group & update
+  const group = await Group.findByIdAndUpdate(
+    req.body.groupId,
+    {
+      $push: {
+        member: {
+          userId: user._id,
+          userName: user.name,
+          isManager: true,
+          isMember: true,
+        },
+      },
+    },
+    {
+      new: true,
+    }
+  );
+
+  if (!group)
+    return res
+      .status(400)
+      .send("존재하지 않는 그룹입니다. 다시 한 번 확인해주세요.");
+
+  res.send(group);
+});
 
 // DELETE
 
