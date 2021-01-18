@@ -82,12 +82,13 @@ router.post("/", auth, async (req, res) => {
       name: category.name,
     },
     location: req.body.location,
+    address: req.body.address,
     description: req.body.description,
     startTime: req.body.startTime,
     meetingDate: req.body.meetingDate,
     keywords: keywords,
     // launcedDate: req.body.launchedDate,
-    member: req.body.member,
+    members: [user._id],
     coverImage: req.body.coverImage,
   });
 

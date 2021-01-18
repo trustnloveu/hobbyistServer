@@ -54,7 +54,7 @@ router.post("/", async (req, res) => {
     .send(_.pick(user, ["_id", "email", "name", "phone"]));
 });
 
-// PUT > create a new group (manager role)
+// PUT > create a new group
 router.put("/createNewGroup/:id", validateObjectId, async (req, res) => {
   const group = await Group.findById(req.params.id);
   if (!group) return res.status(404).send("현재 존재하지 않는 그룹입니다.");
@@ -63,12 +63,8 @@ router.put("/createNewGroup/:id", validateObjectId, async (req, res) => {
     req.body.userId,
     {
       $push: {
-        joinedGroups: {
-          groupId: group._id,
-          groupTitle: group.title,
-          isManager: true,
-          isMember: true,
-        },
+        hostingGroups: group._id,
+        joinedGroups: group._id,
       },
     },
     {

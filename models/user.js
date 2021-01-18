@@ -34,6 +34,10 @@ const userSchema = new mongoose.Schema({
     minlength: 9,
     maxlength: 20,
   },
+  hostingGroups: {
+    type: Array,
+    default: [],
+  },
   joinedGroups: {
     type: Array,
     default: [],

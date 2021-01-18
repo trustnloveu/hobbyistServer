@@ -26,6 +26,12 @@ const groupSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  address: {
+    type: String,
+    required: true,
+    minlength: 1,
+    maxlength: 200,
+  },
   description: {
     type: String,
     required: true,
@@ -49,9 +55,9 @@ const groupSchema = new mongoose.Schema({
     type: String,
     default: new Date(),
   },
-  member: {
-    type: Number,
-    default: 1,
+  members: {
+    type: Array,
+    default: [],
   },
   coverImage: {
     type: Buffer,
@@ -69,6 +75,7 @@ function validateGroup(group) {
     userId: Joi.objectId().required(),
     categoryId: Joi.objectId().required(),
     location: Joi.string().required(),
+    address: Joi.string().min(1).max(200).required(),
     description: Joi.string().min(1).max(500).required(),
     startTime: Joi.string().required(),
     meetingDate: Joi.string().required(),
