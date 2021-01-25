@@ -74,7 +74,7 @@ router.put("/createNewGroup/:id", validateObjectId, async (req, res) => {
 
   if (!user) return res.status(404).send("확인되지 않는 유저입니다.");
 
-  res.send(user); // console.log(user);
+  res.send(user);
 });
 
 // PUT > join in a new group (member role)

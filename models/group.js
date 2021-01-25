@@ -80,8 +80,6 @@ function validateGroup(group) {
     startTime: Joi.string().required(),
     meetingDate: Joi.string().required(),
     keywords: Joi.string(),
-    // launchedDate: Joi.string().default(new Date("yyyy-MM-dd")),
-    // member: Joi.number().default(1),
     coverImage: Joi.binary().encoding("base64").required(),
   });
   return schema.validate(group);

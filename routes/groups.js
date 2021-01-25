@@ -41,8 +41,6 @@ router.get("/:id", validateObjectId, async (req, res) => {
 router.get("/group/:id", validateObjectId, async (req, res) => {
   const group = await Group.findById(req.params.id);
   if (!group) return res.send(404).send("현재 존재하지 않는 그룹입니다.");
-  console.log(req.params.id);
-  console.log(group);
 
   res.send(group);
 });
@@ -87,7 +85,6 @@ router.post("/", auth, async (req, res) => {
     startTime: req.body.startTime,
     meetingDate: req.body.meetingDate,
     keywords: keywords,
-    // launcedDate: req.body.launchedDate,
     members: [user._id],
     coverImage: req.body.coverImage,
   });
@@ -99,28 +96,17 @@ router.post("/", auth, async (req, res) => {
   res.send(group);
 });
 
-// PUT (join group)
-router.put("/join", auth, async (req, res) => {
-  const { error } = validate(req.body);
-  if (error) return res.status(400).send(error.details[0].message);
+// PUT
+router.put("/joinNewGroup/:id", validateObjectId, auth, async (req, res) => {
+  console.log(req.body.userId);
+  console.log(req.params.id);
 
   // check user
-  const user = await User.findById(req.body.userId);
-  if (!user) return res.status(404).send("확인되지 않는 유저입니다.");
-
-  // check user duplication
-
-  // check group & update
-  const group = await Group.findByIdAndUpdate(
-    req.body.groupId,
+  const user = await User.findByIdAndUpdate(
+    req.body.userId,
     {
       $push: {
-        member: {
-          userId: user._id,
-          userName: user.name,
-          isManager: true,
-          isMember: true,
-        },
+        joinedGroup: req.body.userId,
       },
     },
     {
@@ -128,13 +114,45 @@ router.put("/join", auth, async (req, res) => {
     }
   );
 
+  // check group & update
+  const group = await Group.findByIdAndUpdate(
+    req.params.id,
+    {
+      $push: {
+        members: req.params.id,
+      },
+    },
+    {
+      new: true,
+    }
+  );
+
+  console.log(group.members.includes(req.body.userId));
+
+  // error check
+  if (group.members.includes(req.body.userId)) {
+    return res
+      .status(404)
+      .send(
+        "이미 가입된 그룹입니다. 마이페이지에서 자세한 내용을 확인할 수 있습니다."
+      );
+  }
   if (!group)
     return res
       .status(400)
       .send("존재하지 않는 그룹입니다. 다시 한 번 확인해주세요.");
+  if (!user)
+    return res
+      .status(404)
+      .send("확인되지 않는 유저입니다. 로그인 혹은 회원가입이 필요합니다.");
 
-  res.send(group);
+  res.send({
+    group: group,
+    user: user,
+  });
 });
+
+// check existing user
 
 // DELETE
 
