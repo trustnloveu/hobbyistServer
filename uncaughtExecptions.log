@@ -5258,3 +5258,1181 @@
   level: '\u001b[32minfo\u001b[39m',
   timestamp: '2021-01-25 20:49:43'
 }
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 17:50:08'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 17:50:08'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 17:55:56'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 17:55:56'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 17:59:22'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 17:59:22'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:00:37'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:00:37'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:01:42'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:01:42'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:02:02'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:02:02'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:02:44'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:02:44'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:02:46'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:02:46'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:03:30'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:03:31'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:04:57'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:04:57'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:05:02'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:05:02'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:06:06'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:06:06'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:06:16'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:06:16'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:07:01'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:07:01'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:07:22'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:07:22'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:07:36'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:07:36'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:07:37'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:07:37'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:07:54'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:07:54'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:08:04'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:08:04'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:08:10'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:08:10'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:08:52'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:08:52'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:09:24'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:09:24'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:10:07'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:10:07'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:10:13'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:10:13'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:11:05'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:11:05'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:11:29'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:11:29'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:11:57'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:11:57'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:12:08'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:12:08'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:12:23'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:12:23'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:14:03'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:14:03'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:16:08'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:16:08'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:19:06'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:19:06'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:20:40'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:20:40'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:33:40'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:33:40'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:33:59'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:33:59'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:34:03'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:34:03'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:34:45'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:34:45'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:35:09'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:35:09'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:35:24'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:35:24'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:35:40'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:35:40'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:36:05'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:36:05'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:37:29'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:37:29'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:37:32'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:37:32'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:37:49'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:37:49'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:39:06'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:39:06'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:39:23'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:39:23'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:40:05'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:40:05'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:42:00'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:42:00'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:42:42'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:42:42'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:43:02'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:43:02'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:43:12'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:43:12'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:43:38'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:43:38'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:44:00'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:44:00'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:44:16'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:44:16'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:44:32'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:44:32'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:46:17'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:46:17'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:47:21'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:47:21'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:47:54'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:47:54'
+}
+{
+  error: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+      at ServerResponse.setHeader (_http_outgoing.js:518:11)
+      at ServerResponse.header (C:\Users\Austin\node\node-course\hobbyistServer\node_modules\express\lib\response.js:771:10)
+      at ServerResponse.send (C:\Users\Austin\node\node-course\hobbyistServer\node_modules\express\lib\response.js:170:12)
+      at C:\Users\Austin\node\node-course\hobbyistServer\middleware\findJoinedGroup.js:7:8
+      at C:\Users\Austin\node\node-course\hobbyistServer\node_modules\mongoose\lib\model.js:4850:16
+      at C:\Users\Austin\node\node-course\hobbyistServer\node_modules\mongoose\lib\model.js:4850:16
+      at C:\Users\Austin\node\node-course\hobbyistServer\node_modules\mongoose\lib\helpers\promiseOrCallback.js:24:16
+      at C:\Users\Austin\node\node-course\hobbyistServer\node_modules\mongoose\lib\model.js:4873:21
+      at C:\Users\Austin\node\node-course\hobbyistServer\node_modules\mongoose\lib\query.js:4397:11
+      at C:\Users\Austin\node\node-course\hobbyistServer\node_modules\kareem\index.js:136:16
+      at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+    code: 'ERR_HTTP_HEADERS_SENT'
+  },
+  level: '\u001b[31merror\u001b[39m',
+  message: '\t\u001b[31muncaughtException: Cannot set headers after they are sent to the client\u001b[39m\n' +
+    '\u001b[31mError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\u001b[39m\n' +
+    '\u001b[31m    at ServerResponse.setHeader (_http_outgoing.js:518:11)\u001b[39m\n' +
+    '\u001b[31m    at ServerResponse.header (C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\express\\lib\\response.js:771:10)\u001b[39m\n' +
+    '\u001b[31m    at ServerResponse.send (C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\express\\lib\\response.js:170:12)\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\middleware\\findJoinedGroup.js:7:8\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4850:16\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4850:16\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:24:16\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4873:21\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\query.js:4397:11\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\kareem\\index.js:136:16\u001b[39m\n' +
+    '\u001b[31m    at processTicksAndRejections (internal/process/task_queues.js:79:11)\u001b[39m',
+  stack: 'Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n' +
+    '    at ServerResponse.setHeader (_http_outgoing.js:518:11)\n' +
+    '    at ServerResponse.header (C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\express\\lib\\response.js:771:10)\n' +
+    '    at ServerResponse.send (C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\express\\lib\\response.js:170:12)\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\middleware\\findJoinedGroup.js:7:8\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4850:16\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4850:16\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:24:16\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4873:21\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\query.js:4397:11\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\kareem\\index.js:136:16\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:79:11)',
+  exception: true,
+  date: 'Tue Jan 26 2021 18:48:01 GMT+0900 (GMT+09:00)',
+  process: {
+    pid: 20900,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.18.3',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\index.js'
+    ],
+    memoryUsage: {
+      rss: 69570560,
+      heapTotal: 56340480,
+      heapUsed: 31243960,
+      external: 20769645,
+      arrayBuffers: 19262382
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 585492 },
+  trace: [
+    {
+      column: 11,
+      file: '_http_outgoing.js',
+      function: 'ServerResponse.setHeader',
+      line: 518,
+      method: 'setHeader',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\express\\lib\\response.js',
+      function: 'ServerResponse.header',
+      line: 771,
+      method: 'header',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\express\\lib\\response.js',
+      function: 'ServerResponse.send',
+      line: 170,
+      method: 'send',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\middleware\\findJoinedGroup.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js',
+      function: null,
+      line: 4850,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js',
+      function: null,
+      line: 4850,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js',
+      function: null,
+      line: 24,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js',
+      function: null,
+      line: 4873,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\query.js',
+      function: null,
+      line: 4397,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\kareem\\index.js',
+      function: null,
+      line: 136,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'internal/process/task_queues.js',
+      function: 'processTicksAndRejections',
+      line: 79,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'Hobbyist Server',
+  timestamp: '2021-01-26 18:48:01'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:48:54'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:48:54'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:49:48'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:49:48'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:49:53'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:49:53'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:49:57'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:49:57'
+}
+{
+  error: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+      at ServerResponse.setHeader (_http_outgoing.js:518:11)
+      at ServerResponse.header (C:\Users\Austin\node\node-course\hobbyistServer\node_modules\express\lib\response.js:771:10)
+      at ServerResponse.send (C:\Users\Austin\node\node-course\hobbyistServer\node_modules\express\lib\response.js:170:12)
+      at C:\Users\Austin\node\node-course\hobbyistServer\middleware\findJoinedGroup.js:7:8
+      at C:\Users\Austin\node\node-course\hobbyistServer\node_modules\mongoose\lib\model.js:4850:16
+      at C:\Users\Austin\node\node-course\hobbyistServer\node_modules\mongoose\lib\model.js:4850:16
+      at C:\Users\Austin\node\node-course\hobbyistServer\node_modules\mongoose\lib\helpers\promiseOrCallback.js:24:16
+      at C:\Users\Austin\node\node-course\hobbyistServer\node_modules\mongoose\lib\model.js:4873:21
+      at C:\Users\Austin\node\node-course\hobbyistServer\node_modules\mongoose\lib\query.js:4397:11
+      at C:\Users\Austin\node\node-course\hobbyistServer\node_modules\kareem\index.js:136:16
+      at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+    code: 'ERR_HTTP_HEADERS_SENT'
+  },
+  level: '\u001b[31merror\u001b[39m',
+  message: '\t\u001b[31muncaughtException: Cannot set headers after they are sent to the client\u001b[39m\n' +
+    '\u001b[31mError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\u001b[39m\n' +
+    '\u001b[31m    at ServerResponse.setHeader (_http_outgoing.js:518:11)\u001b[39m\n' +
+    '\u001b[31m    at ServerResponse.header (C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\express\\lib\\response.js:771:10)\u001b[39m\n' +
+    '\u001b[31m    at ServerResponse.send (C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\express\\lib\\response.js:170:12)\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\middleware\\findJoinedGroup.js:7:8\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4850:16\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4850:16\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:24:16\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4873:21\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\query.js:4397:11\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\kareem\\index.js:136:16\u001b[39m\n' +
+    '\u001b[31m    at processTicksAndRejections (internal/process/task_queues.js:79:11)\u001b[39m',
+  stack: 'Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n' +
+    '    at ServerResponse.setHeader (_http_outgoing.js:518:11)\n' +
+    '    at ServerResponse.header (C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\express\\lib\\response.js:771:10)\n' +
+    '    at ServerResponse.send (C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\express\\lib\\response.js:170:12)\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\middleware\\findJoinedGroup.js:7:8\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4850:16\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4850:16\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:24:16\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4873:21\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\query.js:4397:11\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\kareem\\index.js:136:16\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:79:11)',
+  exception: true,
+  date: 'Tue Jan 26 2021 18:50:00 GMT+0900 (GMT+09:00)',
+  process: {
+    pid: 2700,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.18.3',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\index.js'
+    ],
+    memoryUsage: {
+      rss: 69885952,
+      heapTotal: 56602624,
+      heapUsed: 30989472,
+      external: 20763666,
+      arrayBuffers: 19256403
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 585611 },
+  trace: [
+    {
+      column: 11,
+      file: '_http_outgoing.js',
+      function: 'ServerResponse.setHeader',
+      line: 518,
+      method: 'setHeader',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\express\\lib\\response.js',
+      function: 'ServerResponse.header',
+      line: 771,
+      method: 'header',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\express\\lib\\response.js',
+      function: 'ServerResponse.send',
+      line: 170,
+      method: 'send',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\middleware\\findJoinedGroup.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js',
+      function: null,
+      line: 4850,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js',
+      function: null,
+      line: 4850,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js',
+      function: null,
+      line: 24,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js',
+      function: null,
+      line: 4873,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\query.js',
+      function: null,
+      line: 4397,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\kareem\\index.js',
+      function: null,
+      line: 136,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'internal/process/task_queues.js',
+      function: 'processTicksAndRejections',
+      line: 79,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'Hobbyist Server',
+  timestamp: '2021-01-26 18:50:00'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:50:38'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:50:38'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:51:31'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:51:31'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:51:37'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:51:37'
+}
+{
+  error: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+      at ServerResponse.setHeader (_http_outgoing.js:518:11)
+      at ServerResponse.header (C:\Users\Austin\node\node-course\hobbyistServer\node_modules\express\lib\response.js:771:10)
+      at ServerResponse.send (C:\Users\Austin\node\node-course\hobbyistServer\node_modules\express\lib\response.js:170:12)
+      at C:\Users\Austin\node\node-course\hobbyistServer\middleware\findJoinedGroup.js:7:8
+      at C:\Users\Austin\node\node-course\hobbyistServer\node_modules\mongoose\lib\model.js:4850:16
+      at C:\Users\Austin\node\node-course\hobbyistServer\node_modules\mongoose\lib\model.js:4850:16
+      at C:\Users\Austin\node\node-course\hobbyistServer\node_modules\mongoose\lib\helpers\promiseOrCallback.js:24:16
+      at C:\Users\Austin\node\node-course\hobbyistServer\node_modules\mongoose\lib\model.js:4873:21
+      at C:\Users\Austin\node\node-course\hobbyistServer\node_modules\mongoose\lib\query.js:4397:11
+      at C:\Users\Austin\node\node-course\hobbyistServer\node_modules\kareem\index.js:136:16
+      at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+    code: 'ERR_HTTP_HEADERS_SENT'
+  },
+  level: '\u001b[31merror\u001b[39m',
+  message: '\t\u001b[31muncaughtException: Cannot set headers after they are sent to the client\u001b[39m\n' +
+    '\u001b[31mError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\u001b[39m\n' +
+    '\u001b[31m    at ServerResponse.setHeader (_http_outgoing.js:518:11)\u001b[39m\n' +
+    '\u001b[31m    at ServerResponse.header (C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\express\\lib\\response.js:771:10)\u001b[39m\n' +
+    '\u001b[31m    at ServerResponse.send (C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\express\\lib\\response.js:170:12)\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\middleware\\findJoinedGroup.js:7:8\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4850:16\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4850:16\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:24:16\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4873:21\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\query.js:4397:11\u001b[39m\n' +
+    '\u001b[31m    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\kareem\\index.js:136:16\u001b[39m\n' +
+    '\u001b[31m    at processTicksAndRejections (internal/process/task_queues.js:79:11)\u001b[39m',
+  stack: 'Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n' +
+    '    at ServerResponse.setHeader (_http_outgoing.js:518:11)\n' +
+    '    at ServerResponse.header (C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\express\\lib\\response.js:771:10)\n' +
+    '    at ServerResponse.send (C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\express\\lib\\response.js:170:12)\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\middleware\\findJoinedGroup.js:7:8\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4850:16\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4850:16\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:24:16\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4873:21\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\query.js:4397:11\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\kareem\\index.js:136:16\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:79:11)',
+  exception: true,
+  date: 'Tue Jan 26 2021 18:51:42 GMT+0900 (GMT+09:00)',
+  process: {
+    pid: 7680,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v12.18.3',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68415488,
+      heapTotal: 56205312,
+      heapUsed: 29329728,
+      external: 20652510,
+      arrayBuffers: 19145247
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 585713 },
+  trace: [
+    {
+      column: 11,
+      file: '_http_outgoing.js',
+      function: 'ServerResponse.setHeader',
+      line: 518,
+      method: 'setHeader',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\express\\lib\\response.js',
+      function: 'ServerResponse.header',
+      line: 771,
+      method: 'header',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\express\\lib\\response.js',
+      function: 'ServerResponse.send',
+      line: 170,
+      method: 'send',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\middleware\\findJoinedGroup.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js',
+      function: null,
+      line: 4850,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js',
+      function: null,
+      line: 4850,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js',
+      function: null,
+      line: 24,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js',
+      function: null,
+      line: 4873,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\query.js',
+      function: null,
+      line: 4397,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\kareem\\index.js',
+      function: null,
+      line: 136,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'internal/process/task_queues.js',
+      function: 'processTicksAndRejections',
+      line: 79,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'Hobbyist Server',
+  timestamp: '2021-01-26 18:51:42'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:52:16'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:52:16'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:52:21'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:52:21'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:52:27'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:52:27'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:52:36'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:52:36'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:54:49'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:54:49'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:57:34'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-26 18:57:34'
+}
