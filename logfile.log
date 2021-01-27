@@ -52,3 +52,31 @@
     '    at processTicksAndRejections (internal/process/task_queues.js:79:11)',
   timestamp: '2021-01-26 18:51:42'
 }
+{
+  level: '\u001b[31merror\u001b[39m',
+  message: "\t\u001b[31mCannot access 'group' before initialization Cannot access 'group' before initialization\u001b[39m",
+  stack: "ReferenceError: Cannot access 'group' before initialization\n" +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\middleware\\findMember.js:7:5\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4850:16\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4850:16\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:24:16\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4873:21\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\query.js:4397:11\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\kareem\\index.js:136:16\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:79:11)',
+  timestamp: '2021-01-27 17:41:49'
+}
+{
+  level: '\u001b[31merror\u001b[39m',
+  message: "\t\u001b[31mCannot read property 'members' of null Cannot read property 'members' of null\u001b[39m",
+  stack: "TypeError: Cannot read property 'members' of null\n" +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\middleware\\findMember.js:7:11\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4850:16\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4850:16\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:24:16\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\model.js:4873:21\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\mongoose\\lib\\query.js:4397:11\n' +
+    '    at C:\\Users\\Austin\\node\\node-course\\hobbyistServer\\node_modules\\kareem\\index.js:136:16\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:79:11)',
+  timestamp: '2021-01-27 17:42:25'
+}
