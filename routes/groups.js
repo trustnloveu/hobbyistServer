@@ -25,6 +25,7 @@ const findJoinedGroup = require("../middleware/findJoinedGroup");
 const { Group, validate } = require("../models/group");
 const { Category } = require("../models/category");
 const { User } = require("../models/user");
+const { find } = require("lodash");
 
 // GET all
 router.get("/", async (req, res) => {
@@ -100,7 +101,7 @@ router.post("/", auth, async (req, res) => {
   res.send(group);
 });
 
-// PUT
+// PUT (join group)
 router.put(
   "/joinNewGroup/:id",
   validateObjectId,
@@ -109,22 +110,50 @@ router.put(
   findJoinedGroup,
   async (req, res) => {
     // check group & update
-    await Group.findByIdAndUpdate(req.params.id, {
+    await req.group.updateOne({
       $push: {
         members: mongoose.Types.ObjectId(req.body.userId),
       },
     });
 
     // check user
-    await User.findByIdAndUpdate(req.body.userId, {
+    await req.user.updateOne({
       $push: {
         joinedGroups: mongoose.Types.ObjectId(req.params.id),
       },
     });
+
+    // save
+    req.group.save();
+    req.user.save();
+
+    // return
+    res.send(req.group);
   }
 );
 
-// check existing user
+// PUT (sign-out group)
+router.put(
+  "/signOutGroup/:id",
+  validateObjectId,
+  auth,
+  findMember,
+  findJoinedGroup,
+  async (req, res) => {
+    await req.group.updateOne(req.params.id, {
+      $pull: {
+        members: mongoose.Types.ObjectId(req.body.userId),
+      },
+    });
+
+    await req.user.updateOne(req.body.userId, {
+      $pull: {
+        joinedGroups: mongoose.Types.ObjectId(req.params.id),
+      },
+    });
+    res.send(req.group);
+  }
+);
 
 // DELETE
 
