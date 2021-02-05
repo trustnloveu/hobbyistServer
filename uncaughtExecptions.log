@@ -7888,3 +7888,283 @@
   level: '\u001b[32minfo\u001b[39m',
   timestamp: '2021-01-28 20:24:02'
 }
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-29 17:13:58'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-01-29 17:13:58'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 19:17:26'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 19:17:26'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 19:21:39'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 19:21:39'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 19:21:49'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 19:21:49'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 19:21:50'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 19:21:50'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 19:22:17'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 19:22:17'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 19:26:02'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 19:26:02'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 19:27:13'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 19:27:13'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:09:54'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:09:54'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:10:26'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:10:26'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:11:03'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:11:03'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:11:12'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:11:12'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:11:51'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:11:51'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:12:01'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:12:01'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:12:25'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:12:25'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:12:42'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:12:42'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:12:58'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:12:58'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:13:14'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:13:14'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:13:25'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:13:25'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:13:39'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:13:39'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:14:43'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:14:43'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:15:17'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:15:17'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:15:54'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:15:54'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:19:41'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:19:41'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:20:00'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:20:00'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:20:05'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:20:05'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:20:15'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:20:15'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:21:42'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb://localhost/hobbyist...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-02-05 20:21:42'
+}

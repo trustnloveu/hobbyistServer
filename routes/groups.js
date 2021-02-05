@@ -140,17 +140,23 @@ router.put(
   findMember,
   findJoinedGroup,
   async (req, res) => {
-    await req.group.updateOne(req.params.id, {
+    await req.group.updateOne({
       $pull: {
         members: mongoose.Types.ObjectId(req.body.userId),
       },
     });
 
-    await req.user.updateOne(req.body.userId, {
+    await req.user.updateOne({
       $pull: {
         joinedGroups: mongoose.Types.ObjectId(req.params.id),
       },
     });
+
+    // save
+    req.group.save();
+    req.user.save();
+
+    // return
     res.send(req.group);
   }
 );
