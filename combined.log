@@ -7695,3 +7695,33 @@
   level: '\u001b[32minfo\u001b[39m',
   timestamp: '2021-03-17 13:17:03'
 }
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-03-17 17:14:07'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb+srv://scott:tiger@hobbyist.xra8g.mongodb.net/myFirstDatabase?retryWrites=true&w=majority...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-03-17 17:14:08'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-03-17 17:39:02'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb+srv://scott:tiger@hobbyist.xra8g.mongodb.net/myFirstDatabase?retryWrites=true&w=majority...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-03-17 17:39:03'
+}
+{
+  message: '\t\u001b[32mListening on port 3000...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-03-17 17:39:08'
+}
+{
+  message: '\t\u001b[32mConnected to mongodb+srv://scott:tiger@hobbyist.xra8g.mongodb.net/myFirstDatabase?retryWrites=true&w=majority...\u001b[39m',
+  level: '\u001b[32minfo\u001b[39m',
+  timestamp: '2021-03-17 17:39:09'
+}
