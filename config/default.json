@@ -1,4 +1,4 @@
 {
     "jwtPrivateKey": "hobbyist_jwtPrivateKey",
-    "db": "mongodb://localhost/hobbyist"
+    "db": "mongodb+srv://scott:tiger@hobbyist.xra8g.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 }
