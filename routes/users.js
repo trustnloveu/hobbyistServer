@@ -21,7 +21,8 @@ const { Group } = require("../models/group");
 
 // GET
 router.get("/myPage", auth, async (req, res) => {
-  const user = await (await User.findById(req.user._id)).select("-password");
+  const user = await User.findById(req.user._id).select("-password");
+
   res.send(user);
 });
 
